@@ -4,7 +4,7 @@
 
 More information about the competition, its data files, and features can be found on the [competition website](https://www.kaggle.com/c/home-credit-default-risk).
 
-I did not personally enter this competition, I instead learned a great deal from the various notebooks that 
+I did not enter this competition. I instead learned a great deal from the various notebooks that 
 were shared with the community whilst the competition was ongoing and after it had ended. I 
 believe that this competition is a great case study on how to handle a large amount of data (>10000000 rows)
 spread across multiple tables and using scalable ML algorthims that works well with large volumes of data.
