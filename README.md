@@ -2,7 +2,7 @@
 
 ## Can you predict how capable each applicant is of repaying a loan?
 
-More information about the competition, its data files, and the features can be found on the [competition website](https://www.kaggle.com/c/home-credit-default-risk).
+More information about the competition, its data files, and features can be found on the [competition website](https://www.kaggle.com/c/home-credit-default-risk).
 
 I did not personally enter this competition, I instead learned a great deal from the various notebooks that 
 were shared with the community whilst the competition was ongoing and after it had ended. I 
