@@ -10,10 +10,10 @@ believe that this competition is a great case study on how to handle a large amo
 spread across multiple tables and using scalable ML algorthims that work well with large volumes of data.
 
 The feature engineering I performed was heavily inspired by [this notebook](https://www.kaggle.com/willkoehrsen/start-here-a-gentle-introduction) and 
-[this one](https://www.kaggle.com/jsaguiar/lightgbm-with-simple-features) (but was not exactly replicated as I experimented with the different
-aggregation statistics that could be produced). However FE, and consequently getting a high LB score, was not a priority; I am not a credit expert and my late submissions were for knowledge purposes only.
+[this one](https://www.kaggle.com/jsaguiar/lightgbm-with-simple-features) but was not exactly replicated as I experimented with the different
+aggregation statistics that could be produced when combining the tables. However feature engineering and getting a high LB score was not a priority for this project; I am not a credit expert and my submissions were for knowledge purposes only.
 I instead focused on learning and reproducing the techniques for combining the large amounts of data that was available
 and using scalable ML algorithms (specifically LightGBM) to make predictions.
 
-I also practiced using a form of Automatic Hyperparameter Tuning using the [HyperOpt](https://github.com/hyperopt/hyperopt) library,
+I also implemented a form of Automatic Hyperparameter Tuning using the [HyperOpt](https://github.com/hyperopt/hyperopt) library,
 the pipeline of which is transferable and can be used to tune any ML algorithm. 
