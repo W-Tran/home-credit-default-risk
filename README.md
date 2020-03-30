@@ -15,5 +15,12 @@ aggregation statistics that could be produced when combining the tables. However
 I instead focused on learning and reproducing the techniques for combining the large amounts of data that was available
 and using scalable ML algorithms (specifically LightGBM) to make predictions.
 
-I also implemented a form of Automatic Hyperparameter Tuning using the [HyperOpt](https://github.com/hyperopt/hyperopt) library,
-the pipeline of which is transferable and can be used to tune any ML algorithm. 
+I also implemented a form of Automatic Hyperparameter Tuning using the [HyperOpt](https://github.com/hyperopt/hyperopt) library with the help of [this](https://towardsdatascience.com/an-introductory-example-of-bayesian-optimization-in-python-with-hyperopt-aae40fff4ff0) blog post. The hyperparameter tuning pipeline is transferable and thus can be used to tune any ML algorithm. 
+
+## Installation
+
+Simply clone the repo and install all dependencies listed in the requirements.txt file to an environment of your choice.
+
+## Usage
+
+Acquire the data files from the competition website linked above and place them in a directory called "data" in the same folder as all the other files in the repo. Preprocess the data using the preprocessing.ipynb notebook and build the model using the LGBM_Model_Tuning.ipynb notebook.
