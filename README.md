@@ -1,6 +1,4 @@
-# Home Credit Default Risk
-
-## Can you predict how capable each applicant is of repaying a loan?
+# Home Credit Default Risk - Can you predict how capable each applicant is of repaying a loan?
 
 More information about the competition, its data files, and features can be found on the [competition website](https://www.kaggle.com/c/home-credit-default-risk).
 
